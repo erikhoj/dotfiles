@@ -1,1 +1,45 @@
 # dotfiles
+
+# Setting up a new mac
+
+- Import system settings from previous Mac
+- Install Brave
+- Install Homebrew, remember to run the command to set it up in your path.
+- Install Git using Homebrew
+- Disable Natural Scrolling in Trackpad settings.
+- Setup a SSH key for your Github Account:
+- `ssh-keygen -o`, then `cat ~/.ssh/id_rsa.pub | pbcopy`
+- `brew install neovim`
+- Download vscode
+- Install the Settings Sync plugin in vs code
+- Install Karabiner Elements
+- Setup the permissions for Karabiner Elements
+- Run `./misc-setup.sh`.
+- Enable the Complex modifications inside Karabiner Elements.
+- `brew install docker`
+- Set the Neovim path in the Vscode Neovim plugin
+- Install Discord
+- Install Slack
+- Install Amethyst `brew install --cask amethyst`
+- Install Kitty `brew install --cask kitty`
+- Turn off Automatically rearrange Spaces based on most recent use off in Desktop & Dock settings in System Settings.
+- `git clone git@github.com:DeepPlateMC/dotfiles.git` in `~/`.
+- Install `ohmyzsh`: `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
+- Install Node `brew install nvm`
+- `nvm install 18`
+- Install golang
+- Install wget `brew install wget`
+- `brew install ripgrep`
+- Install nerd-fonts:
+  - `brew tap homebrew/cask-fonts`
+  - `brew install font-hack-nerd-font`
+- Follow the .README of the `dotfiles`
+- Install Height
+- `brew install gitui`
+- Generate and add a ssh key to your github account
+  - `ssh-keygen -t ed25519 -C "your_email@example.com"`
+  - `cat ~/.ssh/id_ed25519.pub | pbcopy`
+- Install the `prettierd` formatter with Mason in nvim.
+- Run `TSInstall markdown` in nvim
+- Turn off mouse acceleration: `defaults write .GlobalPreferences com.apple.mouse.scaling -1`
+- Login to Github Copilot in nvim: `Copilot auth`
